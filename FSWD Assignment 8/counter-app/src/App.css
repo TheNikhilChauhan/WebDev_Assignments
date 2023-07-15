@@ -1,0 +1,40 @@
+.App {
+  text-align: center;
+  background-color: rgb(243, 208, 227);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 300%;
+  position: absolute;
+  width: 100%;
+  height: 120%;
+  top: -20%;
+}
+
+
+
+.counterBody{
+  border: 2px solid black;
+  border-radius: 15px;
+  padding: 20px;
+  margin-top: 200px;
+  height: 200px;
+  width: 200px;
+  background-color:red ;
+  font-size: 120%;
+  position: relative;
+  top: 10vh;
+
+}
+.counterFace{
+  font-weight: 500;
+  color: aliceblue;
+}
+.btn{
+  padding: 8px;
+  margin: 5px;
+  border: 2px solid green;
+  border-radius: 5px;
+
+}
